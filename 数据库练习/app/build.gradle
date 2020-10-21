@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.0"
 
     defaultConfig {
-        applicationId "com.itTast.myapp"
+        applicationId "com.itTast.sjkTast"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
@@ -20,6 +20,6 @@ android {
 }
 
 dependencies {
-
+	compile 'com.android.support:appcompat-v7:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
